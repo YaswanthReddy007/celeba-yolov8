@@ -1,0 +1,27 @@
+{
+  "grid": {
+    "rows": 2,
+    "cols": 3,
+    "canvas": [
+      640,
+      640
+    ],
+    "gutter": 10
+  },
+  "counts": {
+    "base_total": 1200,
+    "train": 840,
+    "val": 180,
+    "test": 180
+  },
+  "aug": {
+    "train_plus_one": true,
+    "ops": [
+      "flip(0.5)",
+      "brightness/contrast",
+      "blur(0.25)"
+    ]
+  },
+  "classes": 45,
+  "note": "Label class_idx follows meta/id_map.csv; names[] are true celeb IDs."
+}

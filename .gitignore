@@ -1,0 +1,14 @@
+__pycache__/
+.ipynb_checkpoints/
+runs/
+preds/
+weights/*.pt
+*.pt
+CompositeDataset/images/
+CompositeDataset/labels/
+.DS_Store
+Thumbs.db
+*.zip
+*.tar.gz
+*.cache
+*.log
