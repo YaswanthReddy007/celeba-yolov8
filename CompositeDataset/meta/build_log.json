@@ -1,18 +1,18 @@
 {
   "grid": {
-    "rows": 2,
-    "cols": 3,
+    "rows": 4,
+    "cols": 4,
     "canvas": [
-      640,
-      640
+      1024,
+      1024
     ],
-    "gutter": 10
+    "gutter": 8
   },
   "counts": {
-    "base_total": 1200,
-    "train": 840,
-    "val": 180,
-    "test": 180
+    "base_total": 1600,
+    "train": 1120,
+    "val": 240,
+    "test": 240
   },
   "aug": {
     "train_plus_one": true,
